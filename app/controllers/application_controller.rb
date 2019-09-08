@@ -42,7 +42,8 @@ end
       session[:user_id] = user.id 
       redirect '/account'
     else 
-      
+      redirect '/failure'
+    end 
   end
 
   get "/failure" do
