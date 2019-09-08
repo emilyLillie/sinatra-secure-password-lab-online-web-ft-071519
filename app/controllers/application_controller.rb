@@ -37,7 +37,7 @@ end
   end
 
   post "/login" do
-    
+    user = User.find_by()
   end
 
   get "/failure" do
